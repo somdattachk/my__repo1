@@ -3,7 +3,7 @@ body{
     font-family: 'Comic Neue', cursive;
     margin: 10px;
     
-    background-image: url('bg/bg1.jpg');
+    /* background-image: url('bg/bg1.jpg'); */
     
     text-align:justify;
 }
