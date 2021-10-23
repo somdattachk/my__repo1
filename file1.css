@@ -33,11 +33,13 @@ img {
     border: 2px solid black;
     /* margin:12px; */
     width: 30%;
+    
 }
 
  .small-img {
     width: 200px;
     height: 200px;
+    padding: 3%;
 }
 
 .d-block {
