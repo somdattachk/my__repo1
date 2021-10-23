@@ -1,0 +1,252 @@
+body{
+    
+    font-family: 'Comic Neue', cursive;
+    margin: 10px;
+    
+    background-image: url('bg/bg1.jpg');
+    
+    text-align:justify;
+}
+.mkbg{
+    
+    font-weight:bolder;
+}
+.mkbg1{
+    font-size:xx-large;
+    font-weight:bolder;
+}
+img {
+    width: auto; 
+    height: auto;
+    
+}
+.box{
+    border: 2px solid grey;
+    /* height: 55vh; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.con{
+    /* background-color: red; */
+    border: 2px solid black;
+    /* margin:12px; */
+    width: 30%;
+}
+
+ .small-img {
+    width: 200px;
+    height: 200px;
+}
+
+.d-block {
+    display: block;
+}
+
+@media (max-width: 640px){
+    .box {
+        display: block;
+    }
+}
+
+.m-2 {
+    margin: 10px;
+}
+
+/* p-2 means padding 5*2 px */
+
+.p-2 {
+    padding: 10px;
+}
+
+.m-4 {
+    margin: 20px;
+}
+
+/* p-2 means padding 5*2 px */
+
+.p-4 {
+    padding: 20px;
+}
+.my_form{
+    background-color: black;
+    
+}
+.white-font{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    text-align: center
+}
+
+/* #1{
+    width: 20%;
+    height: 20%;
+}
+#2{
+    width: 20%;
+    height: 20%;
+}
+#3{
+    width: 20%;
+    height: 20%;
+}
+#4{
+    width: 20%;
+    height: 20%;
+}
+#5{
+    width: 20%;
+    height: 20%;
+}
+#6{
+    width: 20%;
+    height: 20%;
+}
+#7{
+    width: 20%;
+    height: 20%;
+}
+#8{
+    width: 20%;
+    height: 20%;
+}
+#9{
+    width: 20%;
+    height: 20%;
+}
+#10{
+    width: 20%;
+    height: 20%;
+} */
+
+/*
+m-2 means margin - 5 * 2 
+ .m-2 {
+    margin: 10px;
+}
+
+p-2 means padding 5*2 px
+
+.p-2 {
+    padding: 10px;
+}
+
+.d-flex {
+    display: inline-flex;
+}
+
+.box1  {    
+    width: 45%;
+    border: 1px solid black; 
+    padding: 0.2em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con1 > img{
+    width: 50%;
+}
+.box2  {    
+    width: 45%;
+    border: 1px solid black; 
+    box-sizing: border-box;
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con2 > img{
+    width: 50%;
+}
+.box3  {    
+    width: 45%;
+    border: 1px solid black; 
+    box-sizing: border-box;
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con3 > img{
+    width: 50%;
+}
+.box4  {    
+    width: 45%;
+    border: 1px solid black; 
+    box-sizing: border-box;
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con4 > img{
+    width: 50%;
+}
+.box5  {    
+    width: 45%;
+    border: 1px solid black; 
+    box-sizing: border-box;
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con5 > img{
+    width: 50%;
+}
+.box6  {    
+    width: 45%;
+    border: 1px solid black; 
+    box-sizing: border-box;
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con6 > img{
+    width: 50%;
+}
+.box7  {    
+    width: 45%;
+    border: 1px solid black; 
+     box-sizing: border-box; 
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con7 > img{
+    width: 50%;
+}
+.box8  {    
+    width: 45%;
+    border: 1px solid black; 
+    box-sizing: border-box; 
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con8 > img{
+    width: 50%;
+}  */
