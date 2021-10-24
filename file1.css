@@ -17,11 +17,10 @@ body{
 }
 img {
     width: auto; 
-    height: auto;
-    
+    height: auto;    
 }
 .box{
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     /* height: 55vh; */
     display: flex;
     justify-content: space-between;
@@ -33,6 +32,7 @@ img {
     border: 2px solid black;
     /* margin:12px; */
     width: 30%;
+    
     
 }
 
@@ -46,11 +46,53 @@ img {
     display: block;
 }
 
-@media (max-width: 640px){
-    .box {
-        display: block;
+@media (max-width: 768px){
+    .con{
+        width: 1000%;
+        display:block;
+        position:relative;
+        left: 70px;
+    }
+    
+}
+/* @media screen and (max-width: 291px) {    
+    .con{
+        width: 90%;
+        display:block;
+    }
+    .img{
+        width: 25px;
+        height: 25px;
+    }
+} */
+/* @media screen and (max-width: 620px) {    
+    .con{
+        width: 100%;
+        display:block;
+    }
+} */
+/* @media screen and (min-width: 621px) and (max-width: 1028px) {
+    .box{
+        width:70%;
+    }
+    .con{
+        width: 100%;
+        display:block;
     }
 }
+@media screen and (min-width: 1028 px) and (max-width: 1201px){
+    .con{
+        width: 40%;
+        display:block; */
+    /* }
+} */
+ /* @media screen and (min-width: 1201px){
+    .con{
+        width: 30%;
+        
+    }
+}  */
+
 
 .m-2 {
     margin: 10px;
@@ -73,9 +115,8 @@ img {
 }
 .my_form{
     background-color: black;
-    display: flex;
-    justify-content: center;
-    
+    /* display: flex;
+    justify-content: center;     */
 }
 .white-font{
     color: white;
@@ -83,6 +124,6 @@ img {
 }
 
 input {
-    text-align: center
+    text-align: center;
 }
 
