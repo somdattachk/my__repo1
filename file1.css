@@ -126,4 +126,34 @@ img {
 input {
     text-align: center;
 }
+.footer {
+    background-color: black;
+}
+
+.footer-container-1 {
+    float: left;
+    width: 48%;
+}
+.footer-container-2 {
+    float: right;
+    width: 48%;
+}
+.footer-container-3 {
+    padding: 10px;
+}
+
+.input-container {
+    float: right;
+    clear: both;
+    margin-right: 20%;
+    padding: 10px;
+}
+
+.input_5 {
+    clear: both;
+    text-align: center;
+}
+.white-text {
+    color: white;
+}
 
